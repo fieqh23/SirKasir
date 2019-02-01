@@ -283,7 +283,7 @@ if (isset($_POST["ubah"])) {
                                         <div class="col-12 col-md-9"><input step=".01" required type="number" id="harga-input" name="max_tinggi" value="<?= $ketinggian['max_tinggi']?>" placeholder="Enter pH Maximal" class="form-control" required></div>
                                     </div>                                
                             </div>
-                            <div class="card-footer">
+                            <div class="">
                                 <button type="submit" name="ubah" class="btn btn-primary btn-sm">
                                     <i class="fa fa-dot-circle-o"></i> Submit
                                 </button>

@@ -281,7 +281,7 @@ if (isset($_POST["ubah"])) {
                                         <div class="col-12 col-md-9"><input required type="number" id="harga-input" name="ph_max" value="<?= $tanah['ph_max'] ?>" placeholder="Enter pH Maximal" class="form-control" required></div>
                                     </div>                                
                             </div>
-                            <div class="card-footer">
+                            <div class="">
                                 <button type="submit" name="ubah" class="btn btn-primary btn-sm">
                                     <i class="fa fa-dot-circle-o"></i> Submit
                                 </button>

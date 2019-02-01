@@ -117,7 +117,7 @@ if ($_SESSION["login"]) {
 	<h1 class="title is-2 noprint">Daftar Order</h1>
    
 	 <div class="box content" style="margin-top:5px;">
-	  <div class="pesanan">
+	  <div class="pesanan" style="overflow:auto">
 	   <table class="">
 		<thead>
 		 <tr><th>#</th><th>Pesanan</th><th>Harga Satuan</th><th colspan="3">Jumlah</th><th>Subtotal</th></tr>
@@ -141,7 +141,7 @@ if ($_SESSION["login"]) {
 						<td><a href="?act=min&amp;id_makanan=<?php echo $makanan["id_makanan"]?>" class="button is-small is-success"><i class="fas fa-minus-square"></i></a></td>
 						<td><input class="input" type="number" value="<?php echo $_SESSION['items'][$id_makanan]["jumlah"]; ?>" style="width: 70px; text-align:center;" disabled></td>
 						<td><a href="?act=plus&amp;id_makanan=<?php echo $makanan["id_makanan"]?>" class="button is-small is-success"><i class="fas fa-plus-square"></i></a></td>
-						<td class="has-text-right"><input class="input" type="text" value="<?php echo $subtotal; $_SESSION['items'][$id_makanan]["subtotal"] = $subtotal;?>" disabled style="width:100px"></td>
+						<td class="has-text-right"><input class="input has-text-right" type="text" value="<?php echo $subtotal; $_SESSION['items'][$id_makanan]["subtotal"] = $subtotal;?>" disabled style="width:100px"></td>
 					</tr>
 				<?php endif;?>
          <?php $i++;endforeach; ?>
@@ -149,7 +149,8 @@ if ($_SESSION["login"]) {
 		</tbody>
 		<tfoot>
 			<tr>
-				<th class="has-text-right" colspan="10">TOTAL : <input class="input" type="number" value="<?php echo $total; $_SESSION["total"] = $total;?>" style="width: 200px; text-align:center;" disabled></th>
+				<td class="has-text-right" colspan="6">TOTAL :</td>
+				<td class="has-text-right"><input class="input has-text-right" type="text" value="<?php echo $total; $_SESSION["total"] = $total;?>"disabled style="width:100px"></td>
 			</tr>
 		</tfoot>
 	   </table>

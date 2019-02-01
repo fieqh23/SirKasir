@@ -140,15 +140,15 @@ if (isset($_POST["tambah"])) {
                                         <div class="col col-md-3"><label for="textarea-input" class=" form-control-label">Deskripsi</label></div>
                                         <div class="col-12 col-md-9"><textarea name="deskripsi" id="textarea-input" rows="3" placeholder="Deskripsi..." class="form-control" require></textarea></div>
                                     </div>
-                            </div>
-                            <div class="card-footer">
-                                <button type="submit" name="tambah" class="btn btn-primary btn-sm">
-                                    <i class="fa fa-dot-circle-o"></i> Submit
-                                </button>
-                                <button type="reset" class="btn btn-danger btn-sm">
-                                    <i class="fa fa-ban"></i> Reset
-                                </button>
-                                </form>
+                                    <div class="text-center">
+                                        <button type="submit" name="tambah" class="btn btn-primary btn-sm">
+                                            <i class="fa fa-dot-circle-o"></i> Submit
+                                        </button>
+                                        <button type="reset" class="btn btn-danger btn-sm">
+                                            <i class="fa fa-ban"></i> Reset
+                                        </button>
+                                        </form>
+                                    </div>
                             </div>
                             
                         </div>

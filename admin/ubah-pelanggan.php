@@ -134,7 +134,7 @@ if (isset($_POST["tambah"])) {
                                         <div class="col-12 col-md-9"><input required type="text" id="panen-input" name="no_hp" value="<?= $pelanggan['no_hp']?>" placeholder="Enter Day to Common Harvest" class="form-control" required><small class="help-block form-text">Please enter harvest time </small></div>
                                     </div>
                             </div>
-                            <div class="card-footer">
+                            <div class="">
                                 <button type="submit" name="tambah" class="btn btn-primary btn-sm">
                                     <i class="fa fa-dot-circle-o"></i> Submit
                                 </button>

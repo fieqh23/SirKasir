@@ -292,7 +292,7 @@ if (isset($_POST["tambah"])) {
                                     </div>
                                 
                             </div>
-                            <div class="card-footer">
+                            <div class="">
                                 <button type="submit" name="tambah" class="btn btn-primary btn-sm">
                                     <i class="fa fa-dot-circle-o"></i> Submit
                                 </button>

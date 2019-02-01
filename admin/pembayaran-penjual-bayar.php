@@ -122,7 +122,7 @@ include '../functions.php';
                                         <input type="text" name="id_transaksi" value="<?= $id_transaksi?>" hidden>
                                     </div> 
                             </div>
-                            <div class="card-footer">
+                            <div class="">
                                 <button type="submit" name="submit" class="btn btn-primary btn-sm" onclick="return confirm('Anda yakin ingin membayar Transaksi ini?')">
                                     <i class="fa fa-dot-circle-o"></i> Submit
                                 </button>

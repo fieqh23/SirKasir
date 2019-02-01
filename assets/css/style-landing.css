@@ -579,7 +579,7 @@ header {
 }
 
 #home {
-    height: 100vh;
+    height: 85vh;
 }
 
 #home .home-wrapper {
@@ -1450,11 +1450,12 @@ header {
 
 #footer {
     position: relative;
+    height: 15vh
 }
 
 .footer-logo {
     text-align: center;
-    margin-bottom: 40px;
+    margin: 40px;
 }
 
 .footer-logo>a>img {
@@ -1463,7 +1464,7 @@ header {
 
 .footer-follow {
     text-align: center;
-    margin-bottom: 20px;
+    margin: 20px 0 20px;
 }
 
 .footer-follow li {

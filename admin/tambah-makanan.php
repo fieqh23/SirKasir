@@ -143,7 +143,7 @@ if (isset($_POST["tambah"])) {
                                         <div class="col-12 col-md-9"><textarea name="deskripsi" id="textarea-input" rows="3" placeholder="Deskripsi..." class="form-control" require></textarea></div>
                                     </div>
                             </div>
-                            <div class="card-footer">
+                            <div class="">
                                 <button type="submit" name="tambah" class="btn btn-primary btn-sm">
                                     <i class="fa fa-dot-circle-o"></i> Submit
                                 </button>

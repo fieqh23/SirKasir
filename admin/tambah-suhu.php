@@ -287,7 +287,7 @@ if (isset($_POST["tambah"])) {
                                         <div class="col-12 col-md-9"><input required type="number" id="harga-input" name="max_suhu" value="" placeholder="Enter Suhu Maksimal" class="form-control" required></div>
                                     </div>                                
                             </div>
-                            <div class="card-footer">
+                            <div class="">
                                 <button type="submit" name="tambah" class="btn btn-primary btn-sm">
                                     <i class="fa fa-dot-circle-o"></i> Submit
                                 </button>

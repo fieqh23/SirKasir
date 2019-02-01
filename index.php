@@ -100,7 +100,7 @@
 	<!-- /Header -->
 
 	<!-- Footer -->
-	<footer id="footer" class="sm-padding bg-dark">
+	<footer id="footer" class="xs-padding bg-dark">
 
 		<!-- Container -->
 		<div class="container">
@@ -111,9 +111,9 @@
 				<div class="col-md-12">
 
 					<!-- footer logo -->
-					<div class="footer-logo">
-						<!-- <a href="index.html"><img src="assets/img/landing/logo-alt.png" alt="Sir Kasir"></a> -->
-					</div>
+					<!-- <div class="footer-logo">
+						<a href="index.html"><img src="assets/img/landing/logo-alt.png" alt="Sir Kasir"></a>
+					</div> -->
 					<!-- /footer logo -->
 
 					<!-- footer follow -->

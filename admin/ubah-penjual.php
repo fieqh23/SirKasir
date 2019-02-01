@@ -132,33 +132,29 @@ if (isset($_POST["tambah"])) {
                                     </div>
                                     <div class="row form-group">
                                         <div class="col col-md-3"><label for="panen-input" class=" form-control-label">Username </label></div>
-                                        <div class="col-12 col-md-9"><input required type="text" id="panen-input" name="username" value="<?= $penjual['username']?>" placeholder="Enter Day to Common Harvest" class="form-control" required><small class="help-block form-text">Please enter harvest time </small></div>
+                                        <div class="col-12 col-md-9"><input required type="text" id="panen-input" name="username" value="<?= $penjual['username']?>" placeholder="User Penjual" class="form-control" required><small class="help-block form-text">Username Penjual</small></div>
                                     </div>
                                     <div class="row form-group">
                                         <div class="col col-md-3"><label for="harga-input" class=" form-control-label">Password </label></div>
-                                        <div class="col-12 col-md-9"><input required type="password" id="harga-input" name="password" value="" placeholder="Enter Market Prize" class="form-control" required><small class="help-block form-text">Please enter market price</small></div>
+                                        <div class="col-12 col-md-9"><input required type="password" id="harga-input" name="password" value="" placeholder="Password" class="form-control" required><small class="help-block form-text">Konfirmasi Password</small></div>
                                     </div>
                                     <div class="row form-group">
                                         <div class="col col-md-3"><label for="panen-input" class=" form-control-label">NO Stand </label></div>
-                                        <div class="col-12 col-md-9"><input required type="text" id="panen-input" name="no_stand" value="<?= $penjual['no_stand']?>" placeholder="Enter Day to Common Harvest" class="form-control" required><small class="help-block form-text">Please enter harvest time </small></div>
+                                        <div class="col-12 col-md-9"><input required type="text" id="panen-input" name="no_stand" value="<?= $penjual['no_stand']?>" placeholder="ID Stand" class="form-control" required><small class="help-block form-text">Nomer ID Stand</small></div>
                                     </div>
                                     <div class="row form-group">
                                         <div class="col col-md-3"><label for="panen-input" class=" form-control-label">NO NPWP </label></div>
-                                        <div class="col-12 col-md-9"><input required type="text" id="panen-input" name="no_npwp" value="<?= $penjual['no_npwp']?>" placeholder="Enter Day to Common Harvest" class="form-control" required><small class="help-block form-text">Please enter harvest time </small></div>
+                                        <div class="col-12 col-md-9"><input required type="text" id="panen-input" name="no_npwp" value="<?= $penjual['no_npwp']?>" placeholder="No NPWP" class="form-control" required><small class="help-block form-text">Nomer NPWP</small></div>
                                     </div>
                                     <div class="row form-group">
                                         <div class="col col-md-3"><label for="textarea-input" class=" form-control-label">Deskripsi</label></div>
                                         <div class="col-12 col-md-9"><textarea name="deskripsi" id="textarea-input" rows="3" placeholder="Deskripsi..." class="form-control" require><?= $penjual['desc']?></textarea></div>
                                     </div>
-                            </div>
-                            <div class="card-footer">
-                                <button type="submit" name="tambah" class="btn btn-primary btn-sm">
-                                    <i class="fa fa-dot-circle-o"></i> Submit
-                                </button>
-                                <button type="reset" class="btn btn-danger btn-sm">
-                                    <i class="fa fa-ban"></i> Reset
-                                </button>
-                                </form>
+                                    <div class="text-center">
+                                        <button type="submit" name="tambah" class="btn btn-primary btn-sm"><i class="fa fa-dot-circle-o"></i> Submit</button>
+                                        <button type="reset" class="btn btn-danger btn-sm"><i class="fa fa-ban"></i> Reset</button>
+                                        </form>
+                                    </div>
                             </div>
                             
                         </div>

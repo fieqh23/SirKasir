@@ -80,3 +80,8 @@ figure.tokos img {
  justify-content: center;
  font-weight: bold!important
 }
+
+.v-center {
+ display: flex;
+ align-items: center
+}

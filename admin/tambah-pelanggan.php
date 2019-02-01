@@ -127,15 +127,15 @@ if (isset($_POST["tambah"])) {
                                         <div class="col col-md-3"><label for="panen-input" class=" form-control-label">No HP </label></div>
                                         <div class="col-12 col-md-9"><input required type="text" id="panen-input" name="no_hp" value="" placeholder="Enter Day to Common Harvest" class="form-control" required><small class="help-block form-text">Please enter harvest time </small></div>
                                     </div>
-                            </div>
-                            <div class="card-footer">
-                                <button type="submit" name="tambah" class="btn btn-primary btn-sm">
-                                    <i class="fa fa-dot-circle-o"></i> Submit
-                                </button>
-                                <button type="reset" class="btn btn-danger btn-sm">
-                                    <i class="fa fa-ban"></i> Reset
-                                </button>
-                                </form>
+                                    <div class="text-center">
+                                        <button type="submit" name="tambah" class="btn btn-primary btn-sm">
+                                            <i class="fa fa-dot-circle-o"></i> Submit
+                                        </button>
+                                        <button type="reset" class="btn btn-danger btn-sm">
+                                            <i class="fa fa-ban"></i> Reset
+                                        </button>
+                                        </form>
+                                    </div>
                             </div>
                             
                         </div>

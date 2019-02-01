@@ -114,7 +114,7 @@ include '../functions.php';
                                         </div>
                                     </div>
                             </div>
-                            <div class="card-footer">
+                            <div class="">
                                 <input type="hidden" name="id-meja" value="<?php echo $row['id_meja'];?>">
                                 <button type="submit" name="submit" class="btn btn-primary btn-sm" onclick="return confirm('Anda yakin ingin mengubah data Meja ini?')">
                                     <i class="fa fa-dot-circle-o"></i> Submit

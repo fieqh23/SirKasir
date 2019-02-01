@@ -124,16 +124,16 @@ include '../functions.php';
                                             </select>
                                         </div>
                                     </div>
-                            </div>
-                            <div class="card-footer">
-                                <input type="hidden" name="id_karyawan" value="<?php echo $row['id_karyawan'];?>">
-                                <button type="submit" name="submit" class="btn btn-primary btn-sm" onclick="return confirm('Anda yakin ingin mengubah data Karyawan ini?')">
-                                    <i class="fa fa-dot-circle-o"></i> Submit
-                                </button>
-                                <button type="reset" class="btn btn-danger btn-sm">
-                                    <i class="fa fa-ban"></i> Reset
-                                </button>
-                                </form>
+                                    <div class="text-center">
+                                        <input type="hidden" name="id_karyawan" value="<?php echo $row['id_karyawan'];?>">
+                                        <button type="submit" name="submit" class="btn btn-primary btn-sm" onclick="return confirm('Anda yakin ingin mengubah data Karyawan ini?')">
+                                            <i class="fa fa-dot-circle-o"></i> Submit
+                                        </button>
+                                        <button type="reset" class="btn btn-danger btn-sm">
+                                            <i class="fa fa-ban"></i> Reset
+                                        </button>
+                                        </form>
+                                    </div>
                             </div>
                             
                         </div>

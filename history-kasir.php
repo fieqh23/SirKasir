@@ -96,8 +96,8 @@ if ($_SESSION["login"]) {
     ?>
 	<div class="column is-10">
 	
-	<div class="columns is-marginless is-variable is-1 is-centered">
-		<div class="column is-2 select">
+	<div class="columns is-marginless is-variable is-1 is-centered v-center">
+		<div class="select">
         <form action="" method="POST" name="">
 			<select name="bulan" id="" class="select">
                 <option value="1">Januari</option>
@@ -114,20 +114,20 @@ if ($_SESSION["login"]) {
                 <option value="12">Desember</option>
             </select>
         </div>
-        <div class="column is-2 select">
+        <div class="select">
             <select name="tahun" id="">
                 <?php
                     //ngisi option di selection sebanyak tahun yang ada pada database table transaksi
                     while ($tahunRecord = mysqli_fetch_assoc($queryTahun)){
                 ?>
                 <option value="<?php echo $tahunRecord['tahun'];?>"><?php echo $tahunRecord['tahun'];?></option>
-            </select>
                 <?php 
                     }
                 ?>
+            </select>
         </div>
 		<div class="column is-2">
-			<button class="button is-success is-fullwidth" name="proses">Proses</button>
+			<button class="button is-primary is-fullwidth" name="proses">Proses</button>
         </div>
         </form>
 		<div class="column no-pesan">
